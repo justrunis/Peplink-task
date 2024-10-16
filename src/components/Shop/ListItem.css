@@ -1,0 +1,64 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+  
+.list-item:hover {
+background-color: #f9f9f9;
+}
+
+.item-details {
+flex: 1;
+font-size: 1rem;
+}
+
+.item-actions {
+display: flex;
+gap: 10px;
+}
+
+.edit-btn, .delete-btn, .move-btn {
+padding: 5px 10px;
+font-size: 0.9rem;
+cursor: pointer;
+border: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+background-color: #4caf50;
+color: white;
+}
+
+.edit-btn:hover {
+background-color: #45a049;
+}
+
+.delete-btn {
+background-color: #f44336;
+color: white;
+}
+
+.delete-btn:hover {
+background-color: #e53935;
+}
+
+.move-btn {
+background-color: #2196f3;
+color: white;
+}
+
+.move-btn:hover {
+background-color: #1e88e5;
+}
+
+.move-btn:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+  

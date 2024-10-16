@@ -1,0 +1,49 @@
+.joke-display {
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.joke-display:hover {
+    transform: scale(1.02);
+}
+
+.joke-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #2563eb;
+}
+
+.joke-detail {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.joke-url a {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.joke-url a:hover {
+    text-decoration: none;
+}
+
+.joke-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
